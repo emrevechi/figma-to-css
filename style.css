@@ -47,3 +47,44 @@
     color: #18191F;
     text-decoration: none;
 }
+
+.hero-section {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 100px auto auto;
+    padding: 0 20px;
+
+}
+
+.hero-title {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    margin-top: 70px;
+}
+
+.hero-content {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-button {
+    width: 154px;
+    height: 48px;
+    background: #8C30F5;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Inter' ,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+

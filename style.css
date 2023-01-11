@@ -5,8 +5,8 @@
 }
 
 .app {
-    width: 100vw;
-    height: 100vh;
+
+    max-width:1440px;
     background-image: url(images/background.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -14,18 +14,22 @@
 
 .nav-bar-list {
     display:flex;
-    gap: 32px; ;
+    gap: 32px; 
     align-items: center;
+    list-style: none;
 }
 
 .nav-bar-list-right {
     display:flex;
     gap: 12px; ;
     align-items: center;
+    list-style: none;
+
 }
 
 .nav-bar {
     max-width: 1440px;
+    width: 90%;
     height: 72px;
     display: flex;
     align-items: center;
@@ -34,11 +38,6 @@
     margin: auto;
 }
 
-
-
-.nav-link {
-    list-style: none;
-}
 .nav-link-text {
     font-family: 'Inter', sans-serif;
     font-weight: 500;
@@ -46,4 +45,62 @@
     line-height: 20px;
     color: #18191F;
     text-decoration: none;
+
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    padding: 0 20px;
+    width: 90%;
+    align-content: center;
+}
+
+.hero-title {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #18191F;
+    margin-top: 70px;
+}
+
+.hero-content {
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-button {
+    width: 154px;
+    height: 48px;
+    background: #8C30F5;
+    border-radius: 6px;
+    color: #FFFFFF;
+    border: 0;
+    font-family: 'Inter' ,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+.hero-content-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-company-logos {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    gap: 65px;
+}
+
+.hero-image-container {
+    display: flex;
 }

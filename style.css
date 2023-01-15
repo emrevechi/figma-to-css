@@ -619,3 +619,153 @@
     top: 1770px;
     opacity: 0.3;
 }
+
+.achievements-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px 165px;
+    gap: 30px;
+    width: 1440px;
+    height: 332px;
+    background: #FFFFFF;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.achievements-heading-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 540px;
+    height: 168px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.achievements-title {
+    width: 540px;
+    height: 128px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    color: #18191F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.achievements-description {
+    width: 540px;
+    height: 32px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.achievements-count-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 540px;
+    height: 172px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.achievements-count-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    width: 540px;
+    height: 66px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.achievements-box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 255px;
+    height: 66px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.achievements-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    gap: 10px;
+    width: 48px;
+    height: 48px;
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+}
+
+.achievements-textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 191px;
+    height: 66px;
+    flex: none;
+    order: 1;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+
+.achievements-box-title {
+    width: 191px;
+    height: 40px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    color: #18191F;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.achievements-box-text {
+    width: 191px;
+    height: 26px;
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

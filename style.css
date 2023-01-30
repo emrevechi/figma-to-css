@@ -1064,20 +1064,13 @@
     width: 1440px;
     height: 280px;
     background: #0B0D17;
-    flex: none;
-    order: 8;
-    flex-grow: 0;
 }
 
 .left-footer-section {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 24px;
     position: absolute;
-    width: 489px;
-    height: 168px;
     left: 165px;
     top: 4880px;
 }
@@ -1085,120 +1078,63 @@
 .landify-logo {
     width: 32px;
     height: 32px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .footer-links {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 12px;
-    width: 489px;
-    height: 64px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .footer-links-row1 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 24px;
-    width: 199px;
-    height: 26px;
-    flex: none;
-    order: 0;
-    align-self: flex-start;
-    flex-grow: 0;
 }
 
 .footer-links-row2 {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
     gap: 24px;
-    width: 489px;
-    height: 26px;
-    flex: none;
-    order: 1;
-    align-self: center;
-    flex-grow: 0;
 }
 
 .footer-link-text {
-    width: auto;
-    height: 26px;
     font-family: 'Inter',sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #FFFFFF;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
 }
 
 .rights-text {
-    width: 330px;
-    height: 24px;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #D9DBE1;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }
 
 .footer-right {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
     gap: 16px;
     position: absolute;
-    width: 160px;
-    height: 140px;
     left: 1115px;
     top: 4880px;
-    
 }
 
 .app-stores-get-text {
-    width: 160px;
-    height: 28px;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
     color: #D9DBE1;
-    flex: none;
-    order: 0;
-    flex-grow: 0;  
 }
 
 .app-store1 {
     width: 135px;
     height: 40px;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 }
 
 .app-store2 {
     width: 135px;
     height: 40px;
-    flex: none;
-    order: 2;
-    flex-grow: 0;
 }

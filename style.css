@@ -192,3 +192,225 @@
     order: 1;
     flex-grow: 0;
 }
+
+.stories-section {
+    width: 1440px;
+    height: 896px;
+    background: #D5FAFC;
+}
+
+.stories-section-heading {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: absolute;
+    left: 260px;
+    top: 1800px; 
+}
+
+.stories-title {
+    width: 445px;
+    height: 128px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    color: #18191F;
+}
+
+.stories-description {
+    width: 445px;
+    height: 32px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.testimonal1 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+    position: absolute;
+    left: 355px;
+    top: 1992px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.hubspot-logo {
+    width: 140px;
+    height: 40px;
+}
+
+.testimonal1-content {
+    display: flex;
+    gap: 16px;
+}
+
+.quotemark {
+    width: 16px;
+    height: 14px;
+    opacity: 0.3;
+}
+
+.feedback-person1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feedback1 {
+    width: 254px;
+    font-family: 'Inter' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.person-name1 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+}
+
+.person-title1 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+
+.testimonal2 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+    position: absolute;
+    left: 735px;
+    top: 1848px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.airbnb-logo {
+    width: 130px;
+    height: 40px;
+}
+
+.testimonal2-content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.feedback-person2 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feedback2 {
+    width: 349px;
+    height: 128px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.person-name2 {
+    font-family: 'Inter' , sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+}
+
+.person-title2 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+.testimonal3 {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+    position: absolute;
+    left: 735px;
+    top: 2220px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.bookmyshow-logo {
+    width: 134px;
+    height: 40px;
+}
+
+.testimonal3-content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.feedback-person3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.feedback3 {
+    width: 254px;
+    height: 64px;
+    font-family: 'Inter' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #18191F;
+}
+
+.person-details3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.person-name3 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #18191F;
+    margin-top: 24px;
+}
+
+.person-title3 {
+    font-family: 'Inter' , sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #969BAB;
+}
+
+.bigquotemark {
+    position: absolute;
+    left: 165px;
+    top: 1770px;
+    opacity: 0.3;
+}
